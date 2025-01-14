@@ -17,7 +17,7 @@ public:
        unordered_map<string,int>mp;
 
        // hash map mein substring store kar raha hai
-       for(int i=0;i<n;i++)
+       for(int i=0;i<n-10;i++)
        {
         string h=s.substr(i,10);
         mp[h]++;
